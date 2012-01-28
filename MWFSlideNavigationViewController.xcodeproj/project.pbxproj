@@ -1,0 +1,301 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3DC4150214D382AD007481D7 /* README.mdown in Resources */ = {isa = PBXBuildFile; fileRef = 3DC4150114D382AD007481D7 /* README.mdown */; };
+		3DFA88AF14CEBAFA001C9792 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DFA88AE14CEBAFA001C9792 /* UIKit.framework */; };
+		3DFA88B114CEBAFA001C9792 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DFA88B014CEBAFA001C9792 /* Foundation.framework */; };
+		3DFA88B314CEBAFA001C9792 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DFA88B214CEBAFA001C9792 /* CoreGraphics.framework */; };
+		3DFA88B914CEBAFA001C9792 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3DFA88B714CEBAFA001C9792 /* InfoPlist.strings */; };
+		3DFA88BB14CEBAFA001C9792 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DFA88BA14CEBAFA001C9792 /* main.m */; };
+		3DFA88BF14CEBAFA001C9792 /* MWFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DFA88BE14CEBAFA001C9792 /* MWFAppDelegate.m */; };
+		3DFA88C814CEBBB1001C9792 /* MWFSlideNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DFA88C714CEBBB1001C9792 /* MWFSlideNavigationViewController.m */; };
+		3DFA88CB14CEBD11001C9792 /* MWFDemoMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DFA88CA14CEBD11001C9792 /* MWFDemoMainViewController.m */; };
+		3DFA88CE14CEC960001C9792 /* NSObject+DelayedBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DFA88CD14CEC960001C9792 /* NSObject+DelayedBlock.m */; };
+		3DFA88D914D0C2EF001C9792 /* MWFDemoSecondaryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DFA88D814D0C2EF001C9792 /* MWFDemoSecondaryViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3DC4150114D382AD007481D7 /* README.mdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.mdown; sourceTree = "<group>"; };
+		3DFA88AA14CEBAFA001C9792 /* Slide Navigation View Controller Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Slide Navigation View Controller Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DFA88AE14CEBAFA001C9792 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3DFA88B014CEBAFA001C9792 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3DFA88B214CEBAFA001C9792 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3DFA88B614CEBAFA001C9792 /* MWFSlideNavigationViewControllerDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MWFSlideNavigationViewControllerDemo-Info.plist"; sourceTree = "<group>"; };
+		3DFA88B814CEBAFA001C9792 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3DFA88BA14CEBAFA001C9792 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3DFA88BC14CEBAFA001C9792 /* MWFSlideNavigationViewController-Prefix.pch */ = {isa = PBXFileReference; path = "MWFSlideNavigationViewController-Prefix.pch"; sourceTree = "<group>"; };
+		3DFA88BD14CEBAFA001C9792 /* MWFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MWFAppDelegate.h; sourceTree = "<group>"; };
+		3DFA88BE14CEBAFA001C9792 /* MWFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MWFAppDelegate.m; sourceTree = "<group>"; };
+		3DFA88C614CEBBB1001C9792 /* MWFSlideNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWFSlideNavigationViewController.h; sourceTree = "<group>"; };
+		3DFA88C714CEBBB1001C9792 /* MWFSlideNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWFSlideNavigationViewController.m; sourceTree = "<group>"; };
+		3DFA88C914CEBD11001C9792 /* MWFDemoMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWFDemoMainViewController.h; sourceTree = "<group>"; };
+		3DFA88CA14CEBD11001C9792 /* MWFDemoMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWFDemoMainViewController.m; sourceTree = "<group>"; };
+		3DFA88CC14CEC960001C9792 /* NSObject+DelayedBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+DelayedBlock.h"; sourceTree = "<group>"; };
+		3DFA88CD14CEC960001C9792 /* NSObject+DelayedBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+DelayedBlock.m"; sourceTree = "<group>"; };
+		3DFA88D714D0C2EF001C9792 /* MWFDemoSecondaryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWFDemoSecondaryViewController.h; sourceTree = "<group>"; };
+		3DFA88D814D0C2EF001C9792 /* MWFDemoSecondaryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWFDemoSecondaryViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3DFA88A714CEBAFA001C9792 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DFA88AF14CEBAFA001C9792 /* UIKit.framework in Frameworks */,
+				3DFA88B114CEBAFA001C9792 /* Foundation.framework in Frameworks */,
+				3DFA88B314CEBAFA001C9792 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3DFA889F14CEBAFA001C9792 = {
+			isa = PBXGroup;
+			children = (
+				3DC4150114D382AD007481D7 /* README.mdown */,
+				3DFA88C514CEBB2A001C9792 /* Classes */,
+				3DFA88B414CEBAFA001C9792 /* Demo */,
+				3DFA88AD14CEBAFA001C9792 /* Frameworks */,
+				3DFA88AB14CEBAFA001C9792 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3DFA88AB14CEBAFA001C9792 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3DFA88AA14CEBAFA001C9792 /* Slide Navigation View Controller Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3DFA88AD14CEBAFA001C9792 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DFA88AE14CEBAFA001C9792 /* UIKit.framework */,
+				3DFA88B014CEBAFA001C9792 /* Foundation.framework */,
+				3DFA88B214CEBAFA001C9792 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3DFA88B414CEBAFA001C9792 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				3DFA88BD14CEBAFA001C9792 /* MWFAppDelegate.h */,
+				3DFA88BE14CEBAFA001C9792 /* MWFAppDelegate.m */,
+				3DFA88B514CEBAFA001C9792 /* Supporting Files */,
+				3DFA88CC14CEC960001C9792 /* NSObject+DelayedBlock.h */,
+				3DFA88CD14CEC960001C9792 /* NSObject+DelayedBlock.m */,
+				3DFA88C914CEBD11001C9792 /* MWFDemoMainViewController.h */,
+				3DFA88CA14CEBD11001C9792 /* MWFDemoMainViewController.m */,
+				3DFA88D714D0C2EF001C9792 /* MWFDemoSecondaryViewController.h */,
+				3DFA88D814D0C2EF001C9792 /* MWFDemoSecondaryViewController.m */,
+			);
+			path = Demo;
+			sourceTree = SOURCE_ROOT;
+		};
+		3DFA88B514CEBAFA001C9792 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3DFA88B614CEBAFA001C9792 /* MWFSlideNavigationViewControllerDemo-Info.plist */,
+				3DFA88B714CEBAFA001C9792 /* InfoPlist.strings */,
+				3DFA88BA14CEBAFA001C9792 /* main.m */,
+				3DFA88BC14CEBAFA001C9792 /* MWFSlideNavigationViewController-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3DFA88C514CEBB2A001C9792 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3DFA88C614CEBBB1001C9792 /* MWFSlideNavigationViewController.h */,
+				3DFA88C714CEBBB1001C9792 /* MWFSlideNavigationViewController.m */,
+			);
+			path = Classes;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3DFA88A914CEBAFA001C9792 /* MWFSlideNavigationViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DFA88C214CEBAFA001C9792 /* Build configuration list for PBXNativeTarget "MWFSlideNavigationViewController" */;
+			buildPhases = (
+				3DFA88A614CEBAFA001C9792 /* Sources */,
+				3DFA88A714CEBAFA001C9792 /* Frameworks */,
+				3DFA88A814CEBAFA001C9792 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MWFSlideNavigationViewController;
+			productName = MWFSlideNavigationViewControllerDemo;
+			productReference = 3DFA88AA14CEBAFA001C9792 /* Slide Navigation View Controller Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3DFA88A114CEBAFA001C9792 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Meiwin Fu (blockthirty)";
+			};
+			buildConfigurationList = 3DFA88A414CEBAFA001C9792 /* Build configuration list for PBXProject "MWFSlideNavigationViewController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3DFA889F14CEBAFA001C9792;
+			productRefGroup = 3DFA88AB14CEBAFA001C9792 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3DFA88A914CEBAFA001C9792 /* MWFSlideNavigationViewController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3DFA88A814CEBAFA001C9792 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DFA88B914CEBAFA001C9792 /* InfoPlist.strings in Resources */,
+				3DC4150214D382AD007481D7 /* README.mdown in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3DFA88A614CEBAFA001C9792 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DFA88BB14CEBAFA001C9792 /* main.m in Sources */,
+				3DFA88BF14CEBAFA001C9792 /* MWFAppDelegate.m in Sources */,
+				3DFA88C814CEBBB1001C9792 /* MWFSlideNavigationViewController.m in Sources */,
+				3DFA88CB14CEBD11001C9792 /* MWFDemoMainViewController.m in Sources */,
+				3DFA88CE14CEC960001C9792 /* NSObject+DelayedBlock.m in Sources */,
+				3DFA88D914D0C2EF001C9792 /* MWFDemoSecondaryViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3DFA88B714CEBAFA001C9792 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DFA88B814CEBAFA001C9792 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3DFA88C014CEBAFA001C9792 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3DFA88C114CEBAFA001C9792 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3DFA88C314CEBAFA001C9792 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Demo/MWFSlideNavigationViewController-Prefix.pch";
+				INFOPLIST_FILE = "Demo/MWFSlideNavigationViewControllerDemo-Info.plist";
+				PRODUCT_NAME = "Slide Navigation View Controller Demo";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3DFA88C414CEBAFA001C9792 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Demo/MWFSlideNavigationViewController-Prefix.pch";
+				INFOPLIST_FILE = "Demo/MWFSlideNavigationViewControllerDemo-Info.plist";
+				PRODUCT_NAME = "Slide Navigation View Controller Demo";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3DFA88A414CEBAFA001C9792 /* Build configuration list for PBXProject "MWFSlideNavigationViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DFA88C014CEBAFA001C9792 /* Debug */,
+				3DFA88C114CEBAFA001C9792 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DFA88C214CEBAFA001C9792 /* Build configuration list for PBXNativeTarget "MWFSlideNavigationViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DFA88C314CEBAFA001C9792 /* Debug */,
+				3DFA88C414CEBAFA001C9792 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3DFA88A114CEBAFA001C9792 /* Project object */;
+}
